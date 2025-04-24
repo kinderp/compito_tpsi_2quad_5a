@@ -24,8 +24,8 @@ Le rotte devono restiture un json fatto in questo modo:
 
 ```json
 {
-  'code': 1,
-  'data': []
+  "code": 1,
+  "data": []
 }
 ```
 
