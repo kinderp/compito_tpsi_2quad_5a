@@ -6,7 +6,7 @@ Alla pressione del bottone, il sistema deve creare un nuovo biglietto sul databa
 Una volta creato il nuovo record sul db, il biglietto verrà stampato e fornito in output al paziente attraverso la colonnina stessa. 
 Il ritiro del biglietto dalla colonnina farà alzare la sbarra d'ingresso.
 
-All'uscita, il paziente inserirà il biglietto prelevato in entrata dalla colonnina nelle casse automatiche. Il sistema segnerà la data di uscita sul corrispondente record nel db e calcolerà il costo della sosta (uscita_in_millisecondi - entrata_in_millisecondi)*0.01.
+All'uscita, il paziente inserirà il biglietto prelevato in entrata dalla colonnina nelle casse automatiche. Il sistema segnerà la data di uscita sul corrispondente record nel db e calcolerà il costo della sosta (uscita - entrata)*0.01.
 Effettuato il pagamento, la cassa restituirà il biglietto precedentemente inserito che servirà per far alzare la sbarra nelle colonnine d'uscita.
 La sbarra d'uscita non si alzerà se la data di uscita (aggiornata in fase di pagamento) non è valorizzata.
 
